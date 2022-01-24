@@ -1,0 +1,28 @@
+{
+  "name": "mooncats-bidding-bot",
+  "version": "1.0.0",
+  "description": "A template for bidding on English auctions on OpenSea.",
+  "main": "os_bid_bot_mc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/0xCUDL/os-mooncats-biddy-bot.git"
+  },
+  "author": "artdaddy.eth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xCUDL/os-mooncats-biddy-bot/issues"
+  },
+  "homepage": "https://github.com/0xCUDL/os-mooncats-biddy-bot/#readme",
+  "dependencies": {
+    "@0x/subproviders": "^2.1.4",
+    "opensea-js": "latest",
+    "web3": "1.0.0-beta.34"
+  },
+  "engines": {
+    "node": "8.11.x",
+    "npm": "5.6.x"
+  }
+}
